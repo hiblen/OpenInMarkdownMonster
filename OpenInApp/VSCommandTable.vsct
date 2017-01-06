@@ -11,7 +11,7 @@
         <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>Open in $gregt$</ButtonText>
+          <ButtonText>Open in Markdown Monster</ButtonText>
         </Strings>
       </Button>
     </Buttons>
@@ -35,13 +35,13 @@
    
   <Symbols>
         <!-- This is the package guid. -->    
-    <GuidSymbol name="guidOpenInAppPackage" value="{111117A9-1607-40E1-81B5-28D1454C1111}" /><!--$gregt$-->
+    <GuidSymbol name="guidOpenInAppPackage" value="{66C6304B-1942-4D4E-8305-E075966D1EF0}" />
 
-    <GuidSymbol name="guidOpenInVsCmdSet" value="{222217A9-1607-40E1-81B5-28D1454C2222}"><!--$gregt$-->
+    <GuidSymbol name="guidOpenInVsCmdSet" value="{708A0DE2-98E6-43CE-B8F8-472121FB3D17}">
       <IDSymbol name="OpenInApp" value="0x0100" />
     </GuidSymbol>
 
-    <GuidSymbol name="guidImages" value="{333317A9-1607-40E1-81B5-28D1454C3333}" ><!--$gregt$-->
+    <GuidSymbol name="guidImages" value="{893F0F26-F856-4D7F-9910-919245929B09}" >
       <IDSymbol name="bmpPic1" value="1" />
     </GuidSymbol>
   </Symbols>
