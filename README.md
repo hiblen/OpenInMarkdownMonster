@@ -21,7 +21,7 @@ Download this extension from the [VS Marketplace][VSMarketplaceUrl].
 
 <!--COPY START FOR VS GALLERY-->
 
-A Visual Studio extension to open a file in [Markdown Monster][ThirdPartyAppHomePage] directly from within Visual Studio.
+A [Visual Studio][https://www.visualstudio.com/] extension to open a file in [Markdown Monster][ThirdPartyAppHomePage] directly from within Visual Studio.
 
 [![][ThirdPartyAppOfficialLogo]][ThirdPartyAppHomePage]
 
@@ -33,7 +33,7 @@ See the [change log](CHANGELOG.md) for road map and release history. Bugs can be
 
 ![](OpenInApp/Resources/ReadMeScreenShot_ContextMenu.png)
 
-- Open multiple files simultaneously with Markdown Monster directly from within Solution Explorer.
+- Open multiple files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
 
 - Warning if attemptimg to open a large quantity of files. The quantity is configurable, and if set very high effectively suppresses the warning altogether.
 
