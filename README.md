@@ -59,9 +59,9 @@ The [owner](https://github.com/GregTrevellick) of this [GitHub repository / soft
 
 Nor has [this][GitHubRepoURL] software been authorised, approved, verified or in anyway assessed by [Markdown Monster][ThirdPartyAppHomePage], or any of its subsidiaries or its affiliates, either as [raw source code][GitHubRepoURL] on [GitHub.com](https://github.com/) or as a [Visual Studio Extension][VSMarketplaceUrl] in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
-All Trademark, intellectual property rights, and other rights belonging to [Markdown Monster][ThirdPartyAppHomePage] as described in [here][ThirdPartyAppHomePage] and [here][ThirdPartyAppHomePage] apply.
+All Trademark, intellectual property rights, and other rights belonging to [Markdown Monster][ThirdPartyAppHomePage] as described in [here][ThirdPartyAppHomePage] apply.
 
-All [Markdown Monster][ThirdPartyAppHomePage] logos and [Markdown Monster][ThirdPartyAppHomePage] links belong to [Markdown Monster][ThirdPartyAppHomePage] and their use here and any associated goodwill inures to [Markdown Monster][ThirdPartyAppHomePage] as described [here][ThirdPartyAppHomePage].
+All [Markdown Monster][ThirdPartyAppHomePage] logos and [Markdown Monster][ThirdPartyAppHomePage] links belong to [Markdown Monster][ThirdPartyAppHomePage] and their use here and any associated goodwill inures to [Markdown Monster][ThirdPartyAppHomePage].
 
 In no event shall [Markdown Monster][ThirdPartyAppHomePage] be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or dealings in the software.
 
