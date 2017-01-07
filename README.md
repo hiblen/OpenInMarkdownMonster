@@ -33,11 +33,13 @@ See the [change log](CHANGELOG.md) for road map and release history. Bugs can be
 
 ![](OpenInApp/Resources/ReadMeScreenShot_ContextMenu.png)
 
-- Open multiple files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
+- Open *multiple* files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
 
-- Warning if attemptimg to open a large quantity of files. The quantity is configurable, and if set very high effectively suppresses the warning altogether.
+- Warning if attempting to open a large quantity of files. The quantity is configurable in Tools > Options.
 
-- Warning if attempting to open one or more file types whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools | Options, and the warning message can be suppressed.
+- Warning if attempting to open one or more file types whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools > Options.
+
+- Option to supress the warning message if attempting to open a file whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage].
 
 ## Options
 
