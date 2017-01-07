@@ -9,7 +9,7 @@
 [VSMarketplaceUrl]: https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster
 [VSMarketplaceReviewsUrl]: https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster#review-details
 
-# Open In Markdown Monster
+# Open In [Markdown Monster][ThirdPartyAppHomePage]
 
 [![Licence](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![Build status][AppVeyorProjectBuildStatusBadgeSvg]][AppVeyorProjectUrl]
@@ -21,7 +21,7 @@ Download this extension from the [VS Marketplace][VSMarketplaceUrl].
 
 <!--COPY START FOR VS GALLERY-->
 
-A [Visual Studio][https://www.visualstudio.com/] extension to open a file in [Markdown Monster][ThirdPartyAppHomePage] directly from within Visual Studio.
+A [Visual Studio](https://www.visualstudio.com/) extension to open a file in [Markdown Monster][ThirdPartyAppHomePage] directly from within [Visual Studio](https://www.visualstudio.com/).
 
 [![][ThirdPartyAppOfficialLogo]][ThirdPartyAppHomePage]
 
@@ -37,7 +37,7 @@ See the [change log](CHANGELOG.md) for road map and release history. Bugs can be
 
 - Warning if attemptimg to open a large quantity of files. The quantity is configurable, and if set very high effectively suppresses the warning altogether.
 
-- Warning if attempting to open one or more file types whose extension is not typically associated with Markdown Monster. The list of typical file extensions is configurable in Tools | Options, and the warning message can be suppressed.
+- Warning if attempting to open one or more file types whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools | Options, and the warning message can be suppressed.
 
 ## Options
 
@@ -61,7 +61,7 @@ Nor has [this][GitHubRepoURL] software been authorised, approved, verified or in
 
 All Trademark, intellectual property rights, and other rights belonging to [Markdown Monster][ThirdPartyAppHomePage] as described in [here][ThirdPartyAppHomePage] and [here][ThirdPartyAppHomePage] apply.
 
-All Markdown Monster logos and Markdown Monster links belong to [Markdown Monster][ThirdPartyAppHomePage] and their use here and any associated goodwill inures to [Markdown Monster][ThirdPartyAppHomePage] as described [here][ThirdPartyAppHomePage].
+All [Markdown Monster][ThirdPartyAppHomePage] logos and [Markdown Monster][ThirdPartyAppHomePage] links belong to [Markdown Monster][ThirdPartyAppHomePage] and their use here and any associated goodwill inures to [Markdown Monster][ThirdPartyAppHomePage] as described [here][ThirdPartyAppHomePage].
 
 In no event shall [Markdown Monster][ThirdPartyAppHomePage] be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or dealings in the software.
 
