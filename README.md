@@ -9,7 +9,7 @@
 [VSMarketplaceUrl]: https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster
 [VSMarketplaceReviewsUrl]: https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster#review-details
 
-# Open In [Markdown Monster][ThirdPartyAppHomePage]
+# Open In Markdown Monster
 
 [![Licence](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![Build status][AppVeyorProjectBuildStatusBadgeSvg]][AppVeyorProjectUrl]
@@ -35,9 +35,9 @@ See the [change log](CHANGELOG.md) for road map and release history. Bugs can be
 
 - Open *multiple* files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
 
-- Warning if attempting to open a large quantity of files. The quantity is configurable in Tools > Options.
+- Warning if attempting to open a large quantity of files. The quantity is configurable in Tools | Options.
 
-- Warning if attempting to open one or more file types whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools > Options.
+- Warning if attempting to open one or more file types whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools | Options.
 
 - Option to supress the warning message if attempting to open a file whose extension is not typically associated with [Markdown Monster][ThirdPartyAppHomePage].
 
