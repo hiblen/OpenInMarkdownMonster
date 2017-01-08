@@ -33,6 +33,8 @@ See the [change log](CHANGELOG.md) for road map and release history. Bugs can be
 
 ![](OpenInApp/Resources/ReadMeScreenShot_ContextMenu.png)
 
+- Works with VS2012, VS2013, VS2015 and VS2017.
+
 - Open *multiple* files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
 
 - Warning if attempting to open a large quantity of files. The quantity is configurable in Tools | Options.
