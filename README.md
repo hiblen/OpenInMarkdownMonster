@@ -29,6 +29,14 @@ If you like this *free* extension, please give it a [review][VSMarketplaceReview
 
 See the [change log](CHANGELOG.md) for road map and release history. Bugs can be logged [here][GitHubRepoIssuesURL].
 
+## Who Is This Extension For ?
+
+Whilst the Visual Studio IDE has an outstanding and feature-rich editor for a wide range of file types, even in the free "Community" editions, there may be times when you wish to open a file in a different application. Examples include application/editor familiarity, gigantic file handling, or even the desire to not override the default VS editor. 
+
+In these scenarios, and many more, this extension may be of use to you.
+
+Similar "Open In" VS extensions can be found [here](https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance).
+
 ## Features
 
 ![](OpenInApp/Resources/ReadMeScreenShot_ContextMenu.png)
