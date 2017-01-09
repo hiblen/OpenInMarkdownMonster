@@ -43,7 +43,7 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
 ![](OpenInApp/Resources/ReadMeScreenShot_ContextMenu.png)
 
-- Works with VS2012, VS2013, VS2015 and VS2017.
+- Works with VS2012, VS2013 and VS2015.
 
 - Open *multiple* files simultaneously with [Markdown Monster][ThirdPartyAppHomePage] directly from within Solution Explorer.
 

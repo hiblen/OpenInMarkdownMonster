@@ -11,7 +11,7 @@ namespace OpenInApp
         public const string Name = "Open in Markdown Monster";
         public const string Description = @"Open a file in Markdown Monster directly from Solution Explorer within Visual Studio.";
         public const string Language = "en-US";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.24";
         public const string Author = "GregTrevellick";
         public const string Tags = "open, open in, MarkdownMonster, Markdown Monster, Markdown";
     }

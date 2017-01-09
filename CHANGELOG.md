@@ -2,9 +2,9 @@
 
 These are the changes to each version that has been released on the official Visual Studio extension gallery.
 
-## 1.0.0
+## 1.0.24
 
-**CCYY-MM-DD** <!--HH:MM UK / HH:MM UTC-->
+**2017-01-10** <!--07:30 UK / 07:30 UTC-->
 
 - [x] Initial release
 
