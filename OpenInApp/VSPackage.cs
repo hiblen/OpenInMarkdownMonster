@@ -4,6 +4,7 @@ using OpenInApp.Options;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
+using OpenInApp.Commands;
 
 namespace OpenInApp
 {

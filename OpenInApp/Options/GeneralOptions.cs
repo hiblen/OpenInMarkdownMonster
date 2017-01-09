@@ -3,6 +3,7 @@ using OpenInApp.Common.Helpers;
 using OpenInApp.Helpers;
 using System.ComponentModel;
 using System.Windows.Forms;
+using OpenInApp.Commands;
 
 namespace OpenInApp.Options
 {

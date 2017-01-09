@@ -1,5 +1,6 @@
 ﻿using OpenInApp.Common.Helpers;
 using System.Windows.Forms;
+using OpenInApp.Commands;
 
 namespace OpenInApp.Helpers
 {
@@ -24,8 +25,6 @@ namespace OpenInApp.Helpers
                     break;
                 case DialogResult.No:
                     PersistVSToolOptions(originalPathToFile);
-                    break;
-                default:
                     break;
             }
         }

@@ -1,13 +1,13 @@
-﻿using EnvDTE;
+﻿using System;
+using System.ComponentModel.Design;
+using System.Linq;
+using EnvDTE;
 using EnvDTE80;
 using Microsoft.VisualStudio.Shell;
 using OpenInApp.Common.Helpers;
 using OpenInApp.Helpers;
-using System;
-using System.ComponentModel.Design;
-using System.Linq;
 
-namespace OpenInApp
+namespace OpenInApp.Commands
 {
     internal sealed class OpenInAppCommand 
     {
@@ -16,7 +16,7 @@ namespace OpenInApp
         public static OpenInAppCommand Instance { get; private set; }
 
         private readonly Package _package;
-        private IServiceProvider ServiceProvider { get { return _package; } }
+        private IServiceProvider ServiceProvider => _package;
 
         public static void Initialize(Package package)
         {
@@ -29,7 +29,7 @@ namespace OpenInApp
 
             if (package == null)
             {
-                Logger.Log(new ArgumentNullException("package"));
+                Logger.Log(new ArgumentNullException(nameof(package)));
                 OpenInAppHelper.ShowUnexpectedError(Caption);
             }
             else
@@ -82,14 +82,9 @@ namespace OpenInApp
                     else
                     {
                         var fileQuantityWarningLimitInt = VSPackage.Options.FileQuantityWarningLimitInt;
-                        proceedToExecute = false;
                         if (actualFilesToBeOpened.Count() > fileQuantityWarningLimitInt)
                         {
                             proceedToExecute = OpenInAppHelper.ConfirmProceedToExecute(Caption, CommonConstants.ConfirmOpenFileQuantityExceedsWarningLimit);
-                        }
-                        else
-                        {
-                            proceedToExecute = true;
                         }
                         if (proceedToExecute)
                         {
@@ -97,11 +92,7 @@ namespace OpenInApp
                             var areTypicalFileExtensions = CommonFileHelper.AreTypicalFileExtensions(actualFilesToBeOpened, typicalFileExtensionAsList);
                             if (!areTypicalFileExtensions)
                             {
-                                if (VSPackage.Options.SuppressTypicalFileExtensionsWarning)
-                                {
-                                    proceedToExecute = true;
-                                }
-                                else
+                                if (!VSPackage.Options.SuppressTypicalFileExtensionsWarning)
                                 {
                                     proceedToExecute = OpenInAppHelper.ConfirmProceedToExecute(Caption, CommonConstants.ConfirmOpenNonTypicalFile);
                                 }
